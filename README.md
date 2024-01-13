@@ -1,6 +1,6 @@
 # Project: Local Places
 
-Ravenous is a web app that interacts with the Yelp API. It allows users to look up restaurants located anywhere and provides options to sort the search results by best match, highest rated, and most reviewed.
+Local Places is a web app that interacts with the Yelp API. It allows users to look up restaurants located anywhere and provides options to sort the search results by best match, highest rated, and most reviewed.
 
 ## Technologies Used
 - React Create App: Bootstrapped the project with Create React App.
