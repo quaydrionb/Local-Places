@@ -1,5 +1,5 @@
 /* Universal Styles */
-
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
 html {
   font-size: 18px;
 }
@@ -29,8 +29,8 @@ input:focus {
   padding: 0.66rem 0;
   text-align: center;
   background-color: #427340;
-  font-family: Poppins, sans-serif;
+  font-family: 'DM Serif Display', serif;
   font-size: 1.8rem;
-  color: #fff;
+  color: #D4D3C1;
   margin: 0;
 }

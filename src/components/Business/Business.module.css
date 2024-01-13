@@ -1,12 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+
+
+
 .Business {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 16.66rem;
     margin: 0 0.5rem 2.3rem 0.5rem;
+    border: 5px solid #427340;
+    border-radius: 30px;
+    background-color: #D4D3C1;
+   
   }
   
   .Business .imageContainer {
+    border-radius: 25px;
     height: 16.66rem;
     margin-bottom: 1rem;
     display: flex;
@@ -25,11 +35,15 @@
     margin-bottom: 0.5rem;
     font-size: 1.2rem;
     font-weight: 600;
+    text-align: center;
+    font-family: 'DM Serif Display', serif;
   }
   
   .BusinessInformation {
+    padding: 15px;
     display: flex;
     justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
   }
   
   .BusinessInformation p {
@@ -65,4 +79,3 @@
     font-size: 0.88rem;
     line-height: 1rem;
   }
-  
