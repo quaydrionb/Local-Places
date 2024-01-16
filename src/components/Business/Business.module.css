@@ -2,16 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
 
 
-
 .Business {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    width: 16.66rem;
-    margin: 0 0.5rem 2.3rem 0.5rem;
+    justify-content: space-around;
+    width: 17.66rem;
+    margin: 0 0.1rem 1.3rem 1.5rem;
     border: 5px solid #427340;
     border-radius: 30px;
     background-color: #BAA97E;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
    
   }
   
@@ -79,3 +79,5 @@
     font-size: 0.88rem;
     line-height: 1rem;
   }
+
+

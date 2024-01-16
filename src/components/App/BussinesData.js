@@ -6,7 +6,7 @@ const business = {
   city: "Cityville",
   state: "FL",
   zipCode: "12345",
-  category: "Italian",
+  category: "Pizza",
   rating: 4.5,
   reviewCount: 90,
 };
