@@ -8,10 +8,11 @@ const sortByOptions = {
 };
 
 const SearchBar = ({ searchYelp }) => {
-  const [term, setTerm] = useState("");
-  const [location, setLocation] = useState("");
-  const [option, setOption] = useState("best_match");
+  const [term, setTerm] = useState(""); // Represents the search term.
+  const [location, setLocation] = useState(""); //  Represents the location for the search.
+  const [option, setOption] = useState("best_match"); // Represents the selected sorting option.
 
+  //Determines whether a sorting option is active or not
   const getSortByClass = (sortByOption) => {
     if (option === sortByOption) {
       return styles.active;
@@ -19,10 +20,12 @@ const SearchBar = ({ searchYelp }) => {
     return "";
   };
 
+  //Updates the selected sorting option.
   const handleSortByChange = (sortByOption) => {
     setOption(sortByOption);
   };
 
+  //Update the state based on changes in the search term and location input fields.
   const handleTermChange = (event) => {
     setTerm(event.target.value);
   };
@@ -31,6 +34,7 @@ const SearchBar = ({ searchYelp }) => {
     setLocation(event.target.value);
   };
 
+  // Triggers the searchYelp function with the provided search parameters.
   const handleSearch = (event) => {
     event.preventDefault();
     searchYelp(term, location, option);
