@@ -76,20 +76,22 @@
   box-shadow: inset 0 0 0 0 #F5DEB4;
 }
 
-.SearchBarSubmit a {
+.SearchBarSubmit button {
+  height: 60px;
   border-radius: 10px;
   padding: 0.72rem 1.7rem;
   background-color: #427340;
   color: #F5DEB4;
   font-weight: 600;
+  font-size: 16px;
   transition: ease-out  0.5s;
 }
 
-.SearchBarSubmit a:hover {
+.SearchBarSubmit button:hover {
   color: #427340;
   box-shadow: inset 0 -100px 0 0 #F5DEB4;
 }
-.SearchBarSubmit:active {
+.SearchBarSubmit button:active {
   transform: scale(0.9);
 }
 
