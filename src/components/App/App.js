@@ -8,14 +8,10 @@ import business from "./BussinesData";
 const businesses = [business, business, business, business, business, business];
 
 const App = () => {
-  const searchYelp = (term, location, sortBy) => {
-    console.log(`Searching Yelp with ${term}, ${location}, ${sortBy}`);
-  };
-
   return (
     <div className={styles.App}>
       <h1>Local Places</h1>
-      <SearchBar searchYelp={searchYelp} />
+      <SearchBar />
       <BusinessList businesses={businesses} />
     </div>
   );
