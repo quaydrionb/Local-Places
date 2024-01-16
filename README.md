@@ -1,30 +1,36 @@
-# Project: Local Places
+# Local Places
 
-Local Places is a web app that interacts with the Yelp API. It allows users to look up restaurants located anywhere and provides options to sort the search results by best match, highest rated, and most reviewed.
+Local Places is a web app that leverages the Yelp API, enabling users to explore restaurants anywhere and sort search results by best match, highest rated, and most reviewed.
+
+## Purpose
+
+The purpose of the Local Places project is to provide users with a user-friendly web app for discovering and sorting restaurants based on Yelp's extensive database. The project incorporates React for frontend development, an Express server to handle authentication between the React App and the Yelp API, and various technologies for seamless integration.
 
 ## Technologies Used
-- React Create App: Bootstrapped the project with Create React App.
-- React: Used for building the web application.
-- Express: Created a second server to serve as an authentication node between REST requests from the React App and the Yelp API, solving CORS authentication dependencies.
-- Fetch & Cors: Used for HTTP requests, responses, and authentication.
-- JavaScript: Core programming language.
-- CSS: Used for additional styling, especially when React Bootstrap was insufficient.
 
-## Challenges Faced
+- **React Create App:** Bootstrapped the project with Create React App.
+- **React:** Used for building the web application.
+- **Express:** Implemented a secondary server as an authentication node to resolve CORS authentication dependencies between the React App and the Yelp API.
+- **Fetch & Cors:** Utilized for HTTP requests, responses, and authentication.
+- **JavaScript:** Primary programming language.
+- **CSS:** Applied for styling, especially when React Bootstrap was insufficient.
 
-### 1. Creating Project & Components
-- Focused on making a static site using React components, including business, business list, and search bar components.
-  
-### 2. Passing Information
-- Refactored objects and started using props.
-  
-### 3. Setting Up Search Bar State
-- Set up states, event handlers, and faked a search by printing to the console and giving alerts.
-- Faced the challenge of a large search bar component, leading to the need to understand stateful and stateless items and split presentation and container components.
+## Features
 
-### 4. Interacting with Yelp API
-- Read on Yelp API and added fetch calls to retrieve data in the search component.
-- Used Express for an intermediary authentication server to solve Yelp CORS authentication issues.
+- **Dynamic Search:** Users can search for restaurants by location and explore results dynamically.
+- **Sorting Options:** Results can be sorted by best match, highest rated, and most reviewed.
+- **Responsive Design:** The web app provides a seamless experience across devices.
+
+## Future Work
+
+While the current version of Local Places is functional, there are opportunities for future enhancements:
+
+- **User Authentication:** Implement user accounts for personalized experiences and features.
+- **Additional Sorting Options:** Introduce more sorting options based on user preferences.
+- **Enhanced Styling:** Further improve the visual aesthetics and user interface.
+- **Geolocation Integration:** Utilize geolocation for personalized restaurant suggestions.
+
 
 ## Conclusion
-The project successfully overcame challenges at each stage, combining various technologies to create a functional web app that interacts seamlessly with the Yelp API.
+
+The Local Places project successfully addresses the challenges faced during development, offering a functional and interactive web app for exploring restaurants with ease.
